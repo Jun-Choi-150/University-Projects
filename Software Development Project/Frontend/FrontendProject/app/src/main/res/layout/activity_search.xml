@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Spage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#050000"
+    tools:context=".SearchActivity">
+
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:iconifiedByDefault="false"
+        android:searchIcon="@android:drawable/ic_menu_search"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <requestFocus />
+    </SearchView>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="415dp"
+        android:layout_height="672dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginBottom="18dp"
+        android:background="#040000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchView"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-5dp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/SbottomNavigationView2"
+        android:layout_width="452dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="561dp"
+        android:layout_marginEnd="1dp"
+        android:background="#673AB7"
+        android:foregroundTint="#673AB7"
+        app:layout_constraintBottom_toBottomOf="@id/listview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <ImageButton
+            android:id="@+id/SpersonalAccountButton"
+            android:layout_width="145dp"
+            android:layout_height="115dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginBottom="2dp"
+            android:backgroundTint="#9D7BDA"
+            android:src="@android:drawable/ic_menu_myplaces"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/SimageButton2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/SimageButton2"
+            android:layout_width="145dp"
+            android:layout_height="115dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="2dp"
+            android:backgroundTint="#9D7BDA"
+            android:src="@drawable/ic_home_black_24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/SpersonalAccountButton"
+            app:layout_constraintStart_toEndOf="@+id/SimageButton3"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/SimageButton3"
+            android:layout_width="145dp"
+            android:layout_height="115dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:backgroundTint="#9D7BDA"
+            android:src="@android:drawable/ic_menu_search"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/SimageButton2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

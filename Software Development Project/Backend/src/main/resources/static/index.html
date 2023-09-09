@@ -1,0 +1,40 @@
+<html>
+
+<head>
+  <title>Chat</title>
+</head>
+
+<body>
+  <table style="width: 100%">
+    <tr>
+      <td>
+        <input type="text" id="wsserver"
+	style = "width: 15rem;"
+        placeholder="ws://coms-309-042.class.las.iastate.edu:8080/chat/"
+	value ="ws://coms-309-042.class.las.iastate.edu:8080/chat/"	
+/>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <input type="text" id="username" style:"width=100%;" placeholder="Enter username" />
+        <input type="text" id="movieId" style:"width=50%;" placeholder="movieId" />
+        <button type="button" onclick="connect();">Enter chat</button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <textarea readonly="true" rows="10" cols="80" id="log"></textarea>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <input type="text" size="51" id="msg" placeholder="Type message here" />
+        <button type="button" onclick="send();">Send</button>
+      </td>
+    </tr>
+  </table>
+</body>
+<script src="websocket.js"></script>
+
+</html>

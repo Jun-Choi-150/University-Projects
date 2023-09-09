@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/UserScrollView2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#040000"
+    tools:context=".UserPageActivity">
+
+    <ImageButton
+        android:id="@+id/UserBackButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="360dp"
+        android:backgroundTint="#A586DD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+
+    <TextView
+        android:id="@+id/UserUsername"
+        android:layout_width="187dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="552dp"
+        android:textAlignment="center"
+        android:textColor="#090707"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/UserImageView" />
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/UserImageView"
+        android:layout_width="121dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="143dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/UserUsername"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/UserListviewAccount"
+        android:layout_width="411dp"
+        android:layout_height="428dp"
+        android:layout_marginEnd="1dp"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/UserCardView"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/UserCardView"
+        android:layout_width="415dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="64dp"
+        app:cardBackgroundColor="#673AB7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/UserUsername">
+
+        <TextView
+            android:id="@+id/UserTextView9"
+            android:layout_width="123dp"
+            android:layout_height="match_parent"
+            android:text="Posts"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/FollowButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="163dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="7dp"
+        android:backgroundTint="#A584DF"
+        android:text="Follow"
+        android:textColor="#040000"
+        app:layout_constraintBottom_toTopOf="@+id/UserCardView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/UserUsername" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

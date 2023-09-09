@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#020000"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/accountMovieTitle"
+        android:layout_width="306dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/accountUsername"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="40dp"
+        android:layout_toEndOf="@+id/postContent"
+        android:textColor="#F6F4F4" />
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/accountPic"
+        android:layout_width="65dp"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:id="@+id/accountUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_toEndOf="@+id/accountPic"
+        android:textColor="#DCD5D5"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/postContentText"
+        android:layout_width="306dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/accountMovieTitle"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="28dp"
+        android:layout_toEndOf="@+id/postContent"
+        android:textColor="#E1DCDC" />
+
+    <TextView
+        android:id="@+id/postContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/postContentText"
+        android:text="Review:"
+        android:textColor="#D5CECE" />
+
+    <ImageView
+        android:id="@+id/star2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/postContentText"
+        android:layout_alignTop="@+id/star3"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/star1" />
+
+    <ImageView
+        android:id="@+id/star3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/postContentText"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="27dp"
+        android:layout_toEndOf="@+id/star2" />
+
+    <ImageView
+        android:id="@+id/star4"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/postContent"
+        android:layout_alignTop="@+id/star3"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/star3" />
+
+    <ImageView
+        android:id="@+id/star5"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/postContent"
+        android:layout_alignTop="@+id/star3"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/star4" />
+
+    <TextView
+        android:id="@+id/postDate"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/star1"
+        android:layout_marginTop="21dp"
+        android:textColor="#FAF8F8" />
+
+    <ImageView
+        android:id="@+id/star1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/postContent"
+        android:layout_alignTop="@+id/star3"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="0dp" />
+
+    <TextView
+        android:id="@+id/postTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/accountPic"
+        android:layout_marginTop="18dp"
+        android:text="Title:"
+        android:textColor="#F8F6F6" />
+
+</RelativeLayout>

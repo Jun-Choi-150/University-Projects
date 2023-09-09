@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/UscrollView2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#040000"
+    tools:context=".FriendPageActivity">
+
+    <ImageButton
+        android:id="@+id/backButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="360dp"
+        android:backgroundTint="#9D7BDA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+
+    <!--    <Button-->
+    <!--        android:id="@+id/UfriendsList"-->
+    <!--        android:layout_width="163dp"-->
+    <!--        android:layout_height="44dp"-->
+    <!--        android:layout_marginStart="124dp"-->
+    <!--        android:layout_marginTop="21dp"-->
+    <!--        android:layout_marginEnd="124dp"-->
+    <!--        android:layout_marginBottom="424dp"-->
+    <!--        android:text="Friends List"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/username" />-->
+
+    <TextView
+        android:id="@+id/Uusername"
+        android:layout_width="187dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="112dp"
+        android:textAlignment="center"
+        android:textColor="#D6CECE"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/UimageView" />
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/UimageView"
+        android:layout_width="121dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="143dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/UlistviewAccount"
+        android:layout_width="411dp"
+        android:layout_height="428dp"
+        android:layout_marginEnd="1dp"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/UcardView"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/UcardView"
+        android:layout_width="415dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="61dp"
+        app:cardBackgroundColor="#673AB7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Uusername">
+
+        <TextView
+            android:id="@+id/UtextView9"
+            android:layout_width="123dp"
+            android:layout_height="match_parent"
+            android:text="Posts"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/friendFollowButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="150dp"
+        android:backgroundTint="#9D7BDA"
+        android:textColor="#020000"
+        android:text="unfollow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Uusername" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

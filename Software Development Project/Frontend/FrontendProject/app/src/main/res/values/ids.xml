@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="HorrorLabel" type="id" />
+    <item name="ThrillerLabel" type="id" />
+    <item name="rvMoviesThriller" type="id" />
+    <item name="editTextTextEmailAddress" type="id" />
+</resources>

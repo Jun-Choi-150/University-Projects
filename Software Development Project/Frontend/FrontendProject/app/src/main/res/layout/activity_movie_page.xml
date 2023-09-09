@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#050000"
+    tools:context=".MoviePageActivity">
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/MovieImage"
+        android:layout_width="275dp"
+        android:layout_height="342dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/MovieTitleLabel"
+        android:layout_width="40dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="18dp"
+        android:text="Title: "
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MovieImage" />
+
+    <TextView
+        android:id="@+id/MovieTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="18dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/MovieTitleLabel"
+        app:layout_constraintTop_toBottomOf="@+id/MovieImage" />
+
+    <TextView
+        android:id="@+id/ReleaseDateLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="7dp"
+        android:text="Release Date:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MovieTitleLabel" />
+
+    <TextView
+        android:id="@+id/MovieReleaseDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ReleaseDateLabel"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="7dp"
+        app:layout_constraintStart_toEndOf="@+id/ReleaseDateLabel"
+        app:layout_constraintTop_toBottomOf="@+id/MovieTitleLabel"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/OverviewLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="11dp"
+        android:text="Overview:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ReleaseDateLabel" />
+
+    <TextView
+        android:id="@+id/MovieOverview"
+        android:layout_width="288dp"
+        android:layout_height="141dp"
+        android:layout_alignTop="@+id/OverviewLabel"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="11dp"
+        app:layout_constraintStart_toEndOf="@+id/OverviewLabel"
+        app:layout_constraintTop_toBottomOf="@+id/ReleaseDateLabel"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/createPostButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="161dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="52dp"
+        android:backgroundTint="#926CD5"
+        android:text="create post"
+        android:textColor="#020000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/movieBackButton"
+        android:layout_width="64dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="13dp"
+        android:backgroundTint="#926CD5"
+        android:src="?attr/actionModeCloseDrawable"
+        app:layout_constraintBottom_toTopOf="@+id/MovieImage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
