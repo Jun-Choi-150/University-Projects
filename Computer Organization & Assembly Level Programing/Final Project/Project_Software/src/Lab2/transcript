@@ -1,0 +1,475 @@
+# //  Questa Sim-64
+# //  Version 2022.2 linux_x86_64 Apr 25 2022
+# //
+# //  Copyright 1991-2022 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+vcom -reportprogress 300 -work work {/home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd}
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 02:08:21 on Oct 03,2022
+# vcom -reportprogress 300 -work work /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package reg_p
+# -- Compiling entity tb_MIPS_Datapath2
+# -- Compiling architecture behavior of tb_MIPS_Datapath2
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(52): near "in": (vcom-1576) expecting STRING or IDENTIFIER or << or '('.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(53): near "in": (vcom-1576) expecting STRING or IDENTIFIER or << or '('.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(54): near "in": (vcom-1576) expecting STRING or IDENTIFIER or << or '('.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(55): near "in": (vcom-1576) expecting STRING or IDENTIFIER or << or '('.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(56): near "in": (vcom-1576) expecting STRING or IDENTIFIER or << or '('.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(57): near "in": (vcom-1576) expecting STRING or IDENTIFIER or << or '('.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(58): near "in": (vcom-1576) expecting STRING or IDENTIFIER or << or '('.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(59): near "in": (vcom-1576) expecting STRING or IDENTIFIER or << or '('.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(60): near "in": (vcom-1576) expecting STRING or IDENTIFIER or << or '('.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(61): near "in": (vcom-1576) expecting STRING or IDENTIFIER or << or '('.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(62): near "in": (vcom-1576) expecting STRING or IDENTIFIER or << or '('.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(63): near "in": (vcom-1576) expecting STRING or IDENTIFIER or << or '('.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(64): near "in": (vcom-1576) expecting STRING or IDENTIFIER or << or '('.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(65): near "out": (vcom-1576) expecting STRING or IDENTIFIER or << or '('.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(79): near "i_imme": (vcom-1576) expecting ',' or ')'.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(88): Statement cannot be labeled.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(90): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(90): (vcom-1136) Unknown identifier "s_i_clk".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(92): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(92): (vcom-1136) Unknown identifier "s_i_clk".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(103): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(103): (vcom-1136) Unknown identifier "s_i_rst".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(107): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(107): (vcom-1136) Unknown identifier "s_i_rst".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(112): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(112): (vcom-1136) Unknown identifier "s_i_w_enable".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(113): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(113): (vcom-1136) Unknown identifier "s_i_ALUsrc".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(114): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(114): (vcom-1136) Unknown identifier "s_i_addSub".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(116): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(116): (vcom-1136) Unknown identifier "s_i_MemToReg".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(118): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(118): (vcom-1136) Unknown identifier "s_i_rt".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(119): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(119): (vcom-1136) Unknown identifier "s_i_rs".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(120): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(120): (vcom-1136) Unknown identifier "s_i_imme".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(121): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(121): (vcom-1136) Unknown identifier "s_i_sign".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(123): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(123): (vcom-1136) Unknown identifier "s_i_w_adrs".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(132): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(132): (vcom-1136) Unknown identifier "s_i_w_enable".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(133): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(133): (vcom-1136) Unknown identifier "s_i_ALUsrc".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(134): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(134): (vcom-1136) Unknown identifier "s_i_addSub".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(136): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(136): (vcom-1136) Unknown identifier "s_i_MemToReg".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(138): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(138): (vcom-1136) Unknown identifier "s_i_rt".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(139): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(139): (vcom-1136) Unknown identifier "s_i_rs".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(140): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(140): (vcom-1136) Unknown identifier "s_i_imme".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(141): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(141): (vcom-1136) Unknown identifier "s_i_sign".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(143): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(143): (vcom-1136) Unknown identifier "s_i_w_adrs".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(152): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(152): (vcom-1136) Unknown identifier "s_i_w_enable".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(153): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(153): (vcom-1136) Unknown identifier "s_i_ALUsrc".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(154): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(154): (vcom-1136) Unknown identifier "s_i_addSub".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(156): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(156): (vcom-1136) Unknown identifier "s_i_MemToReg".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(158): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(158): (vcom-1136) Unknown identifier "s_i_rt".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(159): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(159): (vcom-1136) Unknown identifier "s_i_rs".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(160): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(160): (vcom-1136) Unknown identifier "s_i_imme".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(161): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(161): (vcom-1136) Unknown identifier "s_i_sign".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(163): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(163): (vcom-1136) Unknown identifier "s_i_w_adrs".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(172): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(172): (vcom-1136) Unknown identifier "s_i_w_enable".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(173): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(173): (vcom-1136) Unknown identifier "s_i_ALUsrc".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(174): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(174): (vcom-1136) Unknown identifier "s_i_addSub".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(176): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(176): (vcom-1136) Unknown identifier "s_i_MemToReg".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(178): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(178): (vcom-1136) Unknown identifier "s_i_rt".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(179): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(179): (vcom-1136) Unknown identifier "s_i_rs".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(180): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(180): (vcom-1136) Unknown identifier "s_i_imme".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(181): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(181): (vcom-1136) Unknown identifier "s_i_sign".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(183): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(183): (vcom-1136) Unknown identifier "s_i_w_adrs".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(192): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(192): (vcom-1136) Unknown identifier "s_i_w_enable".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(193): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(193): (vcom-1136) Unknown identifier "s_i_ALUsrc".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(194): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(194): (vcom-1136) Unknown identifier "s_i_addSub".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(196): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(196): (vcom-1136) Unknown identifier "s_i_MemToReg".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(198): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(198): (vcom-1136) Unknown identifier "s_i_rt".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(199): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(199): (vcom-1136) Unknown identifier "s_i_rs".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(200): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(200): (vcom-1136) Unknown identifier "s_i_imme".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(201): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(201): (vcom-1136) Unknown identifier "s_i_sign".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(203): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(203): (vcom-1136) Unknown identifier "s_i_w_adrs".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(211): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(211): (vcom-1136) Unknown identifier "s_i_w_enable".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(212): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(212): (vcom-1136) Unknown identifier "s_i_ALUsrc".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(213): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(213): (vcom-1136) Unknown identifier "s_i_addSub".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(214): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(214): (vcom-1136) Unknown identifier "s_i_MemToReg".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(216): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(216): (vcom-1136) Unknown identifier "s_i_rt".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(217): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(217): (vcom-1136) Unknown identifier "s_i_rs".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(218): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(218): (vcom-1136) Unknown identifier "s_i_imme".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(219): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(219): (vcom-1136) Unknown identifier "s_i_sign".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(221): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(221): (vcom-1136) Unknown identifier "s_i_w_adrs".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(222): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(222): (vcom-1136) Unknown identifier "s_i_mem_w_enable".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(226): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(226): (vcom-1136) Unknown identifier "s_i_mem_w_enable".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(231): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(231): (vcom-1136) Unknown identifier "s_i_w_enable".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(232): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(232): (vcom-1136) Unknown identifier "s_i_ALUsrc".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(233): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(233): (vcom-1136) Unknown identifier "s_i_addSub".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(234): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(234): (vcom-1136) Unknown identifier "s_i_MemToReg".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(236): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(236): (vcom-1136) Unknown identifier "s_i_rt".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(237): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(237): (vcom-1136) Unknown identifier "s_i_rs".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(238): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(238): (vcom-1136) Unknown identifier "s_i_imme".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(239): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(239): (vcom-1136) Unknown identifier "s_i_sign".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(241): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(241): (vcom-1136) Unknown identifier "s_i_w_adrs".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(248): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(248): (vcom-1136) Unknown identifier "s_i_w_enable".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(249): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(249): (vcom-1136) Unknown identifier "s_i_ALUsrc".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(250): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(250): (vcom-1136) Unknown identifier "s_i_addSub".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(251): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(251): (vcom-1136) Unknown identifier "s_i_mem_w_enable".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(252): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(252): (vcom-1136) Unknown identifier "s_i_MemToReg".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(254): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(254): (vcom-1136) Unknown identifier "s_i_rt".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(255): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(255): (vcom-1136) Unknown identifier "s_i_rs".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(256): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(256): (vcom-1136) Unknown identifier "s_i_imme".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(257): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(257): (vcom-1136) Unknown identifier "s_i_sign".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(259): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(259): (vcom-1136) Unknown identifier "s_i_w_adrs".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(268): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(268): (vcom-1136) Unknown identifier "s_i_w_enable".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(269): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(269): (vcom-1136) Unknown identifier "s_i_ALUsrc".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(270): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(270): (vcom-1136) Unknown identifier "s_i_addSub".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(271): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(271): (vcom-1136) Unknown identifier "s_i_MemToReg".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(273): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(273): (vcom-1136) Unknown identifier "s_i_rt".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(274): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(274): (vcom-1136) Unknown identifier "s_i_rs".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(275): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(275): (vcom-1136) Unknown identifier "s_i_imme".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(276): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(276): (vcom-1136) Unknown identifier "s_i_sign".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(278): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(278): (vcom-1136) Unknown identifier "s_i_w_adrs".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(279): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(279): (vcom-1136) Unknown identifier "s_i_mem_w_enable".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(283): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(283): (vcom-1136) Unknown identifier "s_i_mem_w_enable".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(288): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(288): (vcom-1136) Unknown identifier "s_i_w_enable".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(289): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(289): (vcom-1136) Unknown identifier "s_i_ALUsrc".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(290): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(290): (vcom-1136) Unknown identifier "s_i_addSub".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(291): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(291): (vcom-1136) Unknown identifier "s_i_MemToReg".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(293): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(293): (vcom-1136) Unknown identifier "s_i_rt".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(294): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(294): (vcom-1136) Unknown identifier "s_i_rs".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(295): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(295): (vcom-1136) Unknown identifier "s_i_imme".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(296): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(296): (vcom-1136) Unknown identifier "s_i_sign".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(298): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(298): (vcom-1136) Unknown identifier "s_i_w_adrs".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(306): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(306): (vcom-1136) Unknown identifier "s_i_w_enable".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(307): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(307): (vcom-1136) Unknown identifier "s_i_ALUsrc".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(308): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(308): (vcom-1136) Unknown identifier "s_i_addSub".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(309): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(309): (vcom-1136) Unknown identifier "s_i_mem_w_enable".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(310): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(310): (vcom-1136) Unknown identifier "s_i_MemToReg".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(312): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(312): (vcom-1136) Unknown identifier "s_i_rt".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(313): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(313): (vcom-1136) Unknown identifier "s_i_rs".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(314): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(314): (vcom-1136) Unknown identifier "s_i_imme".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(315): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(315): (vcom-1136) Unknown identifier "s_i_sign".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(317): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(317): (vcom-1136) Unknown identifier "s_i_w_adrs".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(326): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(326): (vcom-1136) Unknown identifier "s_i_w_enable".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(327): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(327): (vcom-1136) Unknown identifier "s_i_ALUsrc".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(328): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(328): (vcom-1136) Unknown identifier "s_i_addSub".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(329): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(329): (vcom-1136) Unknown identifier "s_i_MemToReg".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(331): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(331): (vcom-1136) Unknown identifier "s_i_rt".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(332): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(332): (vcom-1136) Unknown identifier "s_i_rs".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(333): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(333): (vcom-1136) Unknown identifier "s_i_imme".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(334): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(334): (vcom-1136) Unknown identifier "s_i_sign".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(336): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(336): (vcom-1136) Unknown identifier "s_i_w_adrs".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(337): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(337): (vcom-1136) Unknown identifier "s_i_mem_w_enable".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(341): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(341): (vcom-1136) Unknown identifier "s_i_mem_w_enable".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(347): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(347): (vcom-1136) Unknown identifier "s_i_w_enable".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(348): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(348): (vcom-1136) Unknown identifier "s_i_ALUsrc".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(349): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(349): (vcom-1136) Unknown identifier "s_i_addSub".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(350): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(350): (vcom-1136) Unknown identifier "s_i_MemToReg".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(352): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(352): (vcom-1136) Unknown identifier "s_i_rt".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(353): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(353): (vcom-1136) Unknown identifier "s_i_rs".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(354): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(354): (vcom-1136) Unknown identifier "s_i_imme".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(355): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(355): (vcom-1136) Unknown identifier "s_i_sign".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(357): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(357): (vcom-1136) Unknown identifier "s_i_w_adrs".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(364): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(364): (vcom-1136) Unknown identifier "s_i_w_enable".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(365): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(365): (vcom-1136) Unknown identifier "s_i_ALUsrc".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(366): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(366): (vcom-1136) Unknown identifier "s_i_addSub".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(367): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(367): (vcom-1136) Unknown identifier "s_i_mem_w_enable".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(368): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(368): (vcom-1136) Unknown identifier "s_i_MemToReg".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(370): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(370): (vcom-1136) Unknown identifier "s_i_rt".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(371): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(371): (vcom-1136) Unknown identifier "s_i_rs".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(372): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(372): (vcom-1136) Unknown identifier "s_i_imme".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(373): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(373): (vcom-1136) Unknown identifier "s_i_sign".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(375): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(375): (vcom-1136) Unknown identifier "s_i_w_adrs".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(384): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(384): (vcom-1136) Unknown identifier "s_i_w_enable".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(385): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(385): (vcom-1136) Unknown identifier "s_i_ALUsrc".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(386): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(386): (vcom-1136) Unknown identifier "s_i_addSub".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(387): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(387): (vcom-1136) Unknown identifier "s_i_MemToReg".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(389): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(389): (vcom-1136) Unknown identifier "s_i_rt".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(390): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(390): (vcom-1136) Unknown identifier "s_i_rs".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(391): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(391): (vcom-1136) Unknown identifier "s_i_imme".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(392): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(392): (vcom-1136) Unknown identifier "s_i_sign".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(394): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(394): (vcom-1136) Unknown identifier "s_i_w_adrs".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(395): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(395): (vcom-1136) Unknown identifier "s_i_mem_w_enable".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(403): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(403): (vcom-1136) Unknown identifier "s_i_w_enable".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(404): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(404): (vcom-1136) Unknown identifier "s_i_ALUsrc".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(405): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(405): (vcom-1136) Unknown identifier "s_i_addSub".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(406): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(406): (vcom-1136) Unknown identifier "s_i_MemToReg".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(408): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(408): (vcom-1136) Unknown identifier "s_i_rt".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(409): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(409): (vcom-1136) Unknown identifier "s_i_rs".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(410): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(410): (vcom-1136) Unknown identifier "s_i_imme".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(411): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(411): (vcom-1136) Unknown identifier "s_i_sign".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(413): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(413): (vcom-1136) Unknown identifier "s_i_w_adrs".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(422): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(422): (vcom-1136) Unknown identifier "s_i_w_enable".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(423): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(423): (vcom-1136) Unknown identifier "s_i_ALUsrc".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(424): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(424): (vcom-1136) Unknown identifier "s_i_addSub".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(425): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(425): (vcom-1136) Unknown identifier "s_i_mem_w_enable".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(426): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(426): (vcom-1136) Unknown identifier "s_i_MemToReg".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(428): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(428): (vcom-1136) Unknown identifier "s_i_rt".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(429): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(429): (vcom-1136) Unknown identifier "s_i_rs".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(430): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(430): (vcom-1136) Unknown identifier "s_i_imme".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(431): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(431): (vcom-1136) Unknown identifier "s_i_sign".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(433): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(433): (vcom-1136) Unknown identifier "s_i_w_adrs".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(442): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(442): (vcom-1136) Unknown identifier "s_i_w_enable".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(443): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(443): (vcom-1136) Unknown identifier "s_i_ALUsrc".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(444): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(444): (vcom-1136) Unknown identifier "s_i_addSub".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(445): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(445): (vcom-1136) Unknown identifier "s_i_MemToReg".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(447): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(447): (vcom-1136) Unknown identifier "s_i_rt".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(448): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(448): (vcom-1136) Unknown identifier "s_i_rs".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(449): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(449): (vcom-1136) Unknown identifier "s_i_imme".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(450): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(450): (vcom-1136) Unknown identifier "s_i_sign".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(452): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(452): (vcom-1136) Unknown identifier "s_i_w_adrs".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(453): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(453): (vcom-1136) Unknown identifier "s_i_mem_w_enable".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(462): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(462): (vcom-1136) Unknown identifier "s_i_w_enable".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(463): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(463): (vcom-1136) Unknown identifier "s_i_ALUsrc".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(464): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(464): (vcom-1136) Unknown identifier "s_i_addSub".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(465): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(465): (vcom-1136) Unknown identifier "s_i_MemToReg".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(467): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(467): (vcom-1136) Unknown identifier "s_i_rt".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(468): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(468): (vcom-1136) Unknown identifier "s_i_rs".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(469): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(469): (vcom-1136) Unknown identifier "s_i_imme".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(470): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(470): (vcom-1136) Unknown identifier "s_i_sign".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(472): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(472): (vcom-1136) Unknown identifier "s_i_w_adrs".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(482): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(482): (vcom-1136) Unknown identifier "s_i_w_enable".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(483): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(483): (vcom-1136) Unknown identifier "s_i_ALUsrc".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(484): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(484): (vcom-1136) Unknown identifier "s_i_addSub".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(485): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(485): (vcom-1136) Unknown identifier "s_i_mem_w_enable".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(486): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(486): (vcom-1136) Unknown identifier "s_i_MemToReg".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(488): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(488): (vcom-1136) Unknown identifier "s_i_rt".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(489): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(489): (vcom-1136) Unknown identifier "s_i_rs".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(490): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(490): (vcom-1136) Unknown identifier "s_i_imme".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(491): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(491): (vcom-1136) Unknown identifier "s_i_sign".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(493): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(493): (vcom-1136) Unknown identifier "s_i_w_adrs".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(501): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(501): (vcom-1136) Unknown identifier "s_i_w_enable".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(502): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(502): (vcom-1136) Unknown identifier "s_i_ALUsrc".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(503): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(503): (vcom-1136) Unknown identifier "s_i_addSub".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(505): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(505): (vcom-1136) Unknown identifier "s_i_MemToReg".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(507): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(507): (vcom-1136) Unknown identifier "s_i_rt".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(508): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(508): (vcom-1136) Unknown identifier "s_i_rs".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(509): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(509): (vcom-1136) Unknown identifier "s_i_imme".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(510): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(510): (vcom-1136) Unknown identifier "s_i_sign".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(512): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(512): (vcom-1136) Unknown identifier "s_i_w_adrs".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(520): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(520): (vcom-1136) Unknown identifier "s_i_w_enable".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(521): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(521): (vcom-1136) Unknown identifier "s_i_ALUsrc".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(522): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(522): (vcom-1136) Unknown identifier "s_i_addSub".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(523): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(523): (vcom-1136) Unknown identifier "s_i_MemToReg".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(525): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(525): (vcom-1136) Unknown identifier "s_i_rt".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(526): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(526): (vcom-1136) Unknown identifier "s_i_rs".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(527): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(527): (vcom-1136) Unknown identifier "s_i_imme".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(528): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(528): (vcom-1136) Unknown identifier "s_i_sign".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(530): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(530): (vcom-1136) Unknown identifier "s_i_w_adrs".
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(531): Illegal target for signal assignment.
+# ** Error: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(531): (vcom-1136) Unknown identifier "s_i_mem_w_enable".
+# ** Note: /home/cwj704/Documents/CprE 381/Lab 2/Lab2/tb_MIPS_Datapath2.vhd(541): VHDL Compiler exiting
+# End time: 02:08:21 on Oct 03,2022, Elapsed time: 0:00:00
+# Errors: 448, Warnings: 0

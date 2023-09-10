@@ -1,0 +1,280 @@
+# //  Questa Sim-64
+# //  Version 2022.2 linux_x86_64 Apr 25 2022
+# //
+# //  Copyright 1991-2022 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+vcom -reportprogress 300 -work work /home/awilken/Documents/awilken/cpre381/cpre381-toolflow/proj/src/MIPS_Processor.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:17:35 on Dec 08,2022
+# vcom -reportprogress 300 -work work /home/awilken/Documents/awilken/cpre381/cpre381-toolflow/proj/src/MIPS_Processor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MIPS_Processor
+# -- Compiling architecture structure of MIPS_Processor
+# End time: 17:17:35 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/awilken/Documents/awilken/cpre381/cpre381-toolflow/proj/src/ALU.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:18:11 on Dec 08,2022
+# vcom -reportprogress 300 -work work /home/awilken/Documents/awilken/cpre381/cpre381-toolflow/proj/src/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALU
+# -- Compiling architecture mixed of ALU
+# End time: 17:18:11 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/awilken/Documents/awilken/cpre381/cpre381-toolflow/proj/src/and32.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:18:11 on Dec 08,2022
+# vcom -reportprogress 300 -work work /home/awilken/Documents/awilken/cpre381/cpre381-toolflow/proj/src/and32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity and32
+# -- Compiling architecture structural of and32
+# End time: 17:18:12 on Dec 08,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/awilken/Documents/awilken/cpre381/cpre381-toolflow/proj/src/BarrelShifter.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:18:12 on Dec 08,2022
+# vcom -reportprogress 300 -work work /home/awilken/Documents/awilken/cpre381/cpre381-toolflow/proj/src/BarrelShifter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity BarrelShifter
+# -- Compiling architecture mixed of BarrelShifter
+# End time: 17:18:12 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/awilken/Documents/awilken/cpre381/cpre381-toolflow/proj/src/controlUnit.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:18:12 on Dec 08,2022
+# vcom -reportprogress 300 -work work /home/awilken/Documents/awilken/cpre381/cpre381-toolflow/proj/src/controlUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity controlUnit
+# -- Compiling architecture mixed of controlUnit
+# End time: 17:18:12 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/awilken/Documents/awilken/cpre381/cpre381-toolflow/proj/src/EXmem.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:18:12 on Dec 08,2022
+# vcom -reportprogress 30 -work work /home/awilken/Documents/awilken/cpre381/cpre381-toolflow/proj/src/EXmem.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity EXmem
+# -- Compiling architecture behavior of EXmem
+# End time: 17:18:12 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/awilken/Documents/awilken/cpre381/cpre381-toolflow/proj/src/fetch.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:18:12 on Dec 08,2022
+# vcom -reportprogress 30 -work work /home/awilken/Documents/awilken/cpre381/cpre381-toolflow/proj/src/fetch.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Fetch
+# -- Compiling architecture structural of Fetch
+# End time: 17:18:12 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/awilken/Documents/awilken/cpre381/cpre381-toolflow/proj/src/IDEX.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:18:12 on Dec 08,2022
+# vcom -reportprogress 30 -work work /home/awilken/Documents/awilken/cpre381/cpre381-toolflow/proj/src/IDEX.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity IDEX
+# -- Compiling architecture behavior of IDEX
+# End time: 17:18:12 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/awilken/Documents/awilken/cpre381/cpre381-toolflow/proj/src/IFID.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:18:12 on Dec 08,2022
+# vcom -reportprogress 30 -work work /home/awilken/Documents/awilken/cpre381/cpre381-toolflow/proj/src/IFID.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity IFID
+# -- Compiling architecture behavior of IFID
+# End time: 17:18:12 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/awilken/Documents/awilken/cpre381/cpre381-toolflow/proj/src/lui.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:18:12 on Dec 08,2022
+# vcom -reportprogress 30 -work work /home/awilken/Documents/awilken/cpre381/cpre381-toolflow/proj/src/lui.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity lui
+# -- Compiling architecture mixed of lui
+# End time: 17:18:12 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/awilken/Documents/awilken/cpre381/cpre381-toolflow/proj/src/memWB.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:18:12 on Dec 08,2022
+# vcom -reportprogress 30 -work work /home/awilken/Documents/awilken/cpre381/cpre381-toolflow/proj/src/memWB.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity memWB
+# -- Compiling architecture behavior of memWB
+# End time: 17:18:12 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/awilken/Documents/awilken/cpre381/cpre381-toolflow/proj/src/MIPS_Processor.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:18:12 on Dec 08,2022
+# vcom -reportprogress 30 -work work /home/awilken/Documents/awilken/cpre381/cpre381-toolflow/proj/src/MIPS_Processor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MIPS_Processor
+# -- Compiling architecture structure of MIPS_Processor
+# End time: 17:18:12 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/awilken/Documents/awilken/cpre381/cpre381-toolflow/proj/src/MIPS_types.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:18:12 on Dec 08,2022
+# vcom -reportprogress 30 -work work /home/awilken/Documents/awilken/cpre381/cpre381-toolflow/proj/src/MIPS_types.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package MIPS_types
+# -- Compiling package body MIPS_types
+# -- Loading package MIPS_types
+# -- Compiling package reg_p
+# End time: 17:18:12 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/awilken/Documents/awilken/cpre381/cpre381-toolflow/proj/src/Move.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:18:12 on Dec 08,2022
+# vcom -reportprogress 30 -work work /home/awilken/Documents/awilken/cpre381/cpre381-toolflow/proj/src/Move.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Move
+# -- Compiling architecture mixed of Move
+# End time: 17:18:12 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/awilken/Documents/awilken/cpre381/cpre381-toolflow/proj/src/mux9to1.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:18:12 on Dec 08,2022
+# vcom -reportprogress 30 -work work /home/awilken/Documents/awilken/cpre381/cpre381-toolflow/proj/src/mux9to1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux9to1
+# -- Compiling architecture dataflow of mux9to1
+# End time: 17:18:12 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/awilken/Documents/awilken/cpre381/cpre381-toolflow/proj/src/nor32.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:18:12 on Dec 08,2022
+# vcom -reportprogress 30 -work work /home/awilken/Documents/awilken/cpre381/cpre381-toolflow/proj/src/nor32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity nor32
+# -- Compiling architecture structural of nor32
+# End time: 17:18:12 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/awilken/Documents/awilken/cpre381/cpre381-toolflow/proj/src/norg2.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:18:12 on Dec 08,2022
+# vcom -reportprogress 30 -work work /home/awilken/Documents/awilken/cpre381/cpre381-toolflow/proj/src/norg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity norg2
+# -- Compiling architecture dataflow of norg2
+# End time: 17:18:12 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/awilken/Documents/awilken/cpre381/cpre381-toolflow/proj/src/or32.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:18:12 on Dec 08,2022
+# vcom -reportprogress 30 -work work /home/awilken/Documents/awilken/cpre381/cpre381-toolflow/proj/src/or32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity or32
+# -- Compiling architecture structural of or32
+# End time: 17:18:12 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/awilken/Documents/awilken/cpre381/cpre381-toolflow/proj/src/pc.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:18:12 on Dec 08,2022
+# vcom -reportprogress 30 -work work /home/awilken/Documents/awilken/cpre381/cpre381-toolflow/proj/src/pc.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity PC
+# -- Compiling architecture structure of PC
+# End time: 17:18:12 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/awilken/Documents/awilken/cpre381/cpre381-toolflow/proj/src/replqb.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:18:12 on Dec 08,2022
+# vcom -reportprogress 30 -work work /home/awilken/Documents/awilken/cpre381/cpre381-toolflow/proj/src/replqb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity replqb
+# -- Compiling architecture mixed of replqb
+# End time: 17:18:13 on Dec 08,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/awilken/Documents/awilken/cpre381/cpre381-toolflow/proj/src/zero.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:18:13 on Dec 08,2022
+# vcom -reportprogress 30 -work work /home/awilken/Documents/awilken/cpre381/cpre381-toolflow/proj/src/zero.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity zero
+# -- Compiling architecture structure of zero
+# End time: 17:18:13 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/awilken/Documents/awilken/cpre381/cpre381-toolflow/proj/src/xorg2.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:18:13 on Dec 08,2022
+# vcom -reportprogress 30 -work work /home/awilken/Documents/awilken/cpre381/cpre381-toolflow/proj/src/xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 17:18:13 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/awilken/Documents/awilken/cpre381/cpre381-toolflow/proj/src/xor32.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:18:13 on Dec 08,2022
+# vcom -reportprogress 30 -work work /home/awilken/Documents/awilken/cpre381/cpre381-toolflow/proj/src/xor32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xor32
+# -- Compiling architecture structural of xor32
+# End time: 17:18:13 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work /home/awilken/Documents/awilken/cpre381/cpre381-toolflow/proj/src/slt.vhd
+# QuestaSim-64 vcom 2022.2 Compiler 2022.04 Apr 25 2022
+# Start time: 17:18:13 on Dec 08,2022
+# vcom -reportprogress 30 -work work /home/awilken/Documents/awilken/cpre381/cpre381-toolflow/proj/src/slt.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity slt
+# -- Compiling architecture structural of slt
+# End time: 17:18:13 on Dec 08,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
